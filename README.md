@@ -1,11 +1,11 @@
 # Sigma
 
-Personalized 1-on-1 AI tutor skill for Claude Code. Based on Bloom's 2-Sigma mastery learning — the finding that students tutored one-on-one with mastery methods perform **2 standard deviations** above conventional classroom students.
+Personalized 1-on-1 AI tutor skill for AI coding agents. Based on Bloom's 2-Sigma mastery learning — the finding that students tutored one-on-one with mastery methods perform **2 standard deviations** above conventional classroom students.
 
 Sigma guides you through any topic with Socratic questioning, adaptive pacing, and rich visual output (HTML dashboards, Excalidraw concept maps, generated images).
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Claude_Code-Skill-blue" alt="Claude Code Skill" />
+  <img src="https://img.shields.io/badge/Agent_Skill-Tutor-blue" alt="Agent Skill" />
   <img src="https://img.shields.io/badge/Method-Bloom's_2--Sigma-green" alt="Bloom's 2-Sigma" />
   <img src="https://img.shields.io/badge/License-MIT-yellow" alt="MIT License" />
 </p>
@@ -13,21 +13,13 @@ Sigma guides you through any topic with Socratic questioning, adaptive pacing, a
 ## Installation
 
 ```bash
-npx claude-code-skill install sanyuan0704/sigma
+npx skills add sanyuan0704/sigma
 ```
 
-Or manually clone and install:
+Or via Agent Skills:
 
 ```bash
-# 1. Clone the repo
-git clone https://github.com/sanyuan0704/sigma.git
-
-# 2. Copy to your Claude Code skills directory
-# Global (available in all projects):
-cp -r sigma/ ~/.claude/skills/sigma/
-
-# Or project-level (available in current project only):
-cp -r sigma/ .claude/skills/sigma/
+npx agent-skills-cli install @sanyuan0704/sigma
 ```
 
 ## Features
@@ -42,7 +34,7 @@ cp -r sigma/ .claude/skills/sigma/
 
 ## Usage
 
-After installation, invoke in Claude Code:
+After installation, invoke with:
 
 ```bash
 /sigma Python decorators
