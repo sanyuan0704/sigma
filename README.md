@@ -1,8 +1,10 @@
 # Sigma
 
-Personalized 1-on-1 AI tutor skill for AI coding agents. Based on Bloom's 2-Sigma mastery learning — the finding that students tutored one-on-one with mastery methods perform **2 standard deviations** above conventional classroom students.
+Personalized 1-on-1 AI tutor agent skill. Based on Bloom's 2-Sigma mastery learning — the finding that students tutored one-on-one with mastery methods perform **2 standard deviations** above conventional classroom students.
 
 Sigma guides you through any topic with Socratic questioning, adaptive pacing, and rich visual output (HTML dashboards, Excalidraw concept maps, generated images).
+
+Compatible with any AI agent terminal: **Claude Code** / **Cursor** / **Trae** / **CodeX** / **Windsurf** and more.
 
 <p align="center">
   <img src="https://img.shields.io/badge/Agent_Skill-Tutor-blue" alt="Agent Skill" />
